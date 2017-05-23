@@ -16,11 +16,4 @@ slice = mat2gray(imread(filename, n, 'Info', info));
 
 out = padarray(slice, [padding, padding]);
 
-clear filename;
-clear imSize;
-clear info;
-clear num_images;
-clear zSlices;
-clear i;
-
 end
